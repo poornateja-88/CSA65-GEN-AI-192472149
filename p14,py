@@ -1,0 +1,5 @@
+from scipy.integrate import quad
+
+result, error = quad(lambda x: x*x, 0, 3)
+
+print("Result =", result)
