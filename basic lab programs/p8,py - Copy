@@ -1,0 +1,7 @@
+import sympy as sp
+
+x = sp.Symbol('x')
+expr = x**2 + 5*x + 6
+
+print("Expression:", expr)
+print("Factorized:", sp.factor(expr))
